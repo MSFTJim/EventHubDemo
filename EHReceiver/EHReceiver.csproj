@@ -5,6 +5,14 @@
     <TargetFramework>net9.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <UserSecretsId>0f6ac2a7-d186-4626-906c-d0be6acc6c09</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.2" />
+    <PackageReference Include="Azure.Messaging.EventHubs" Version="5.11.6" />
+    <PackageReference Include="Azure.Messaging.EventHubs.Processor" Version="5.11.6" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="9.0.3" />
+  </ItemGroup>
 
 </Project>
